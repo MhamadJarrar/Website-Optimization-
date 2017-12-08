@@ -549,7 +549,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var pizzasDisplay = Math.ceil(screen.height / s) * 8;
+  var pizzasDisplay = Math.ceil(screen.height / s) * cols;
   console.log(pizzasDisplay);
 
   var movingPizzas = document.getElementById('movingPizzas1');
