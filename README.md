@@ -1,4 +1,5 @@
 ## Website Performance Optimization portfolio project
+### Optimization
 
 - At first i mesure the speed of the two pages index.html, pizza.html by ngrok, but it bad score.
 - I started read the code and understand it and write some notes how to optimazie it and reading the google page speed insights advice. i also moved the css/js to the main page and i note the enhacement in speed
@@ -6,6 +7,10 @@
 - Moving to work pizza.html (views file) 
 	* apply the technics i've learnd on the project.
 	* add some code to the project. 
+
+### Instructions
+ to view the website download all the files locally and open index.html in your browser, and to view the pizza open views/pizza.html file in your browser
+
 
 ### RESOURCES
 * (https://developers.google.com/speed/pagespeed/insights/)
