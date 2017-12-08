@@ -516,7 +516,9 @@ function updatePositions() {
    frame++;
   window.performance.mark("mark_start_frame");
 
-  var topPosition = document.body.scrollTop / 1250;
+  // var topPosition = document.body.scrollTop / 1250;
+  var topPosition = document.documentElement.scrollTop / 1250;
+
 
   var point = [];
   for (var i = 0; i < 5; i++) {
